@@ -3,4 +3,4 @@ DOING: We will create an UDP communication. For this you will use a UDP Server a
 * What do you need to create/modify in order to run the service?
 * Run the service and explain what you see
 * Change the number of replicas to 4 and apply a rolling-update.
-* Type __kubectl get pods -o wide__ and explain how this info relates with what the receiver.py shows 
+* Type _kubectl get pods -o wide_ and explain how this info relates with what the receiver.py shows 
