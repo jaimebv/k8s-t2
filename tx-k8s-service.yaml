@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tx-k8s-service
+  labels:
+    app: tx-k8s-service
+spec:
+  selector:
+      app: tx-k8s-acceptance
